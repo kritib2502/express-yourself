@@ -12,3 +12,5 @@ const logger = require("morgan");
 // Using logger as middleware, with 3 different output templates
 app.use(logger("dev")); // method, path, status, time
 
+// Express.static middleware to make the public folder globally accessible
+app.use(express.static("public"));
