@@ -7,6 +7,15 @@ const expressLayouts = require("express-ejs-layouts");
 const app = express();
 const port = process.envPORT || 3003;
 
+app.listen(port, () => {
+    console.log(`Server listening on port ${port}`);
+  });
+  
+const indexRouter = require("./routers/indexRouter");
+
+
+// index routes
+app.use(indexRouter);
 // Morgan Logging Middleware
 const logger = require("morgan");
 // Using logger as middleware, with 3 different output templates
