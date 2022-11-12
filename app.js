@@ -25,6 +25,9 @@ app.use(logger("dev")); // method, path, status, time
 // Express.static middleware to make the public folder globally accessible
 app.use(express.static("public"));
 
+app.use(expressLayouts);
+
+app.set("layout", "./layouts/full-width");
 
 
 
