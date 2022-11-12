@@ -1,32 +1,26 @@
-
 {
     "name": "express-yourself",
     "lockfileVersion": 2,
     "requires": true,
-
-  "dependencies": {
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "express-ejs-layouts": "^2.5.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.20"
-  },
-
-  "scripts": {
-    "dev": "nodemon app"
-  },
-   
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kritib2502/express-yourself.git"
-  },
-
-  "keywords": [],
-  "author": "Kriti",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kritib2502"
-  }
-
-  }
-
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "ejs": "^3.1.8",
+        "express": "^4.18.2",
+        "express-ejs-layouts": "^2.5.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.20"
+    },
+    "scripts": {
+        "dev": "nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kritib2502/express-yourself.git"
+    },
+    "keywords": [],
+    "author": "Kriti",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kritib2502"
+    }
+}
