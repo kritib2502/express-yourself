@@ -1,7 +1,7 @@
 [
     {
-        "id": "jsolomon",
-        "name": "Josh Solomon",
+        "id": "kriti",
+        "name": "Kriti bhagat",
         "imagePath": "/images/ProfessorJS.png",
         "interests": [
             "Code",
@@ -10,8 +10,8 @@
         ]
     },
     {
-        "id": "hansolo",
-        "name": "Han Solomon",
+        "id": "sara",
+        "name": "sara rahmani",
         "interests": [
             "Parkour",
             "Toys",
