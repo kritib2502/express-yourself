@@ -37,3 +37,7 @@ app.use(expressLayouts);
 
 app.set("layout", "./layouts/full-width");
 
+
+app.use(expressLayouts);
+
+app.set("layout", "./layouts/full-width");
