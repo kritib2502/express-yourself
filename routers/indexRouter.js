@@ -3,11 +3,11 @@ const express = require("express");
 const indexRouter = express.Router();
 
 
-indexRouter.get("/", (req, res) => res.send("Hello World!"));
-indexRouter.get("/about", (req, res) => res.send("About Us"));
-indexRouter.get("/contact", (req, res) => res.send("Contact Us"));
+indexRouter.get("/", (req, res) => res.render('index'));
+indexRouter.get("/about", (req, res) => res.render('about'));
+indexRouter.get("/contact", (req, res) => res.render('contact'));
 
 
-indexRouter.post("/contact", (req, res) => res.send("Thank you contacting"));
+indexRouter.post("/contact", (req, res) => res.render('contact'));
 
 module.exports = indexRouter;
