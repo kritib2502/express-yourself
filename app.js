@@ -28,6 +28,7 @@ app.use(express.static("public"));
 
 
 
+
 //catch any unmatched routes
 app.all("/*", (req, res) => {
     res.status(404).send("File Not Found");
@@ -36,3 +37,7 @@ app.all("/*", (req, res) => {
 
  
 
+
+app.use(expressLayouts);
+
+app.set("layout", "./layouts/full-width");
